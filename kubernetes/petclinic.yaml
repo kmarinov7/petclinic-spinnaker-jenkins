@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: nginx
+        image: kmarinov/eks
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
